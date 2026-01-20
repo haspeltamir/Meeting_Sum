@@ -230,5 +230,10 @@ WAVESPEED_API_KEY=your_wavespeed_api_key_here
 ```
 ### 2.  **Clone Repo** & Navigate to `Meeting_Sum`.
 ### 3.  **Environment:** Add `OPENAI_API_KEY` to `.env`.
-### 4.  **Backend:** `python -m uvicorn app.main:app --host 127.0.0.1 --port 8001`
-### 5.  **Frontend:** `cd frontend && npm run dev` (Runs on port 5173 or 5174).
+### 4.  **Start Environment:** `.\venv\Scripts\Activate.ps1`
+### 5.  **Backend:** 
+  #### install: `python -m pip install -r requirements.txt`
+  #### Run: `venv\Scripts\python -m uvicorn app.main:app --host 127.0.0.1 --port 8001`
+### 6.  **Frontend:** `cd frontend && npm run dev` (Runs on port 5173 or 5174).
+
+
